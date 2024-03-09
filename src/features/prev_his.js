@@ -11,6 +11,6 @@ export const historySlice = createSlice({
   },
 })
 
-export const {user_history} = createSlice.actions
+export const {user_history} = historySlice.actions
 
 export default historySlice.reducer

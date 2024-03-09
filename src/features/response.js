@@ -12,6 +12,6 @@ export const responseSlice = createSlice({
   },
 })
 
-export const {change_response} = createSlice.actions
+export const {change_response} = responseSlice.actions
 
 export default responseSlice.reducer

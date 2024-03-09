@@ -12,6 +12,6 @@ export const querySlice = createSlice({
   },
 })
 
-export const {change_quest} = createSlice.actions
+export const {change_quest} = querySlice.actions
 
 export default querySlice.reducer
