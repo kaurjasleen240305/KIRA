@@ -3,9 +3,10 @@ import React from 'react';
 
 const Header = () => {
   return (
-    <header className="bg-blue-500 text-white py-4">
-      <div className="container mx-10">
-        <h1 className="text-xl font-bold">KIRA (Knowledge Integrated R-Land AI-ChatBot)</h1>
+    <header className="bg-blue-500 text-white py-4 px-10">
+      <div className="container">
+        <h1 className="hidden sm:block text-xl font-bold text-center lg-2:text-left ">KIRA (Knowledge Integrated R-Land AI-ChatBot)</h1>
+        <h1 className=" block sm:hidden text-xl font-bold text-center lg-2:text-left ">KIRA</h1>
       </div>
     </header>
   );
