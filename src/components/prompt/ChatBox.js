@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
 
-const ChatBox = ({ message,initialColor }) => {
+const ChatBox = ({ message,initialColor,alignment }) => {
 
   return (
     <div
-      className="max-w-md mx-auto my-4 p-4 border border-black rounded-lg relative overflow-hidden"
+      className={`max-w-md mx-auto my-4 p-4 border border-black rounded-lg relative overflow-hidden text-${alignment}`}
       style={{
         background: `linear-gradient(to bottom, ${initialColor}, white)`,
       }}

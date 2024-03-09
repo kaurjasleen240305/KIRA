@@ -8,7 +8,7 @@ function prompt(){
     <div className="flex flex-col h-screen">
         <Header />
         <ChatDiv />
-        <ChatBox initialColor={"grey"} message={"rkjegnjegrjjiufirfjiereggrjeugheuri"} />
+        {/* <ChatBox initialColor={"grey"} message={"rkjegnjegrjjiufirfjiereggrjeugheuri"} /> */}
         <PromptBox/>
     </div>
     )
