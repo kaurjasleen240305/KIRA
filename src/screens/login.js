@@ -6,14 +6,14 @@ function login(){
     return(
     <div className="relative">
       <div
-        className="absolute inset-0 bg-cover bg-center"
+        className="absolute inset-0 bg-cover bg-center h-screen"
         style={{
           backgroundImage: `url(${roorkee})`,
           filter: "blur(8px)",
           zIndex: "-1",
         }}
       />
-      <div className="flex justify-around items-center h-screen">
+      <div className="flex flex-col md:flex-row justify-around  items-center ">
         <Kira_com />
         <Login_right />
       </div>
@@ -24,7 +24,7 @@ export default login;
 
 // return(
 //     <div className="flex justify-around items-center h-screen bg-cover bg-blur" style={{backgroundImage: `url(${roorkee})`}}>
-//          <Kira_com />
+//          <Kira/>
 //          <Login_right />
 //     </div>
 // )
