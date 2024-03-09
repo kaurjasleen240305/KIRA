@@ -24,7 +24,7 @@ export default login;
 
 // return(
 //     <div className="flex justify-around items-center h-screen bg-cover bg-blur" style={{backgroundImage: `url(${roorkee})`}}>
-//          <Kira_com />
+//          <Kira/>
 //          <Login_right />
 //     </div>
 // )
